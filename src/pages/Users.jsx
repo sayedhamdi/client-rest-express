@@ -1,3 +1,4 @@
+import Modal from '../components/Modal'
 import Navbar from '../components/Navbar'
 import { useState,useEffect } from 'react'
 export default function Users(){
@@ -21,6 +22,7 @@ export default function Users(){
         <div>
             <Navbar />
             <h1>Users</h1>
+            <Modal/>
             <table border={1}>
                 <thead>
                 <tr>
